@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Recipe Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+  <body background="./icon/background.png">
+
+
+    
+    <div ><img src ="./icon/final.svg", class="title">
+    </div>
+
+    <div id='circle'>
+  
+    </div> 
+
+    <!-- <div id="container"> -->
+      <div class="cursor"></div>
+
+      <div id="iconContainer">
+<!-- <input type="button" value="test" onclick="searchTerm();"> -->
+
+        <img src="./icon/tomato.png" id="tomato", class="ingredientImage" onclick="searchTerm2('tomato');">
+
+        <img src="./icon/carrot.png" id="carrot", class="ingredientImage" onclick="searchTerm2('carrot');">
+
+        <img src="./icon/potato.png" id="potato", class="ingredientImage" onclick="searchTerm2('potato');">
+
+        <img src="./icon/onion.png" id="onion", class="ingredientImage" onclick="searchTerm2('onion');">
+
+        <img src="./icon/eggplant.png" id="eggplant", class="ingredientImage" onclick="searchTerm2('eggplant')">
+
+        <img src="./icon/cucumber.png" id="cucumber", class="ingredientImage" onclick="searchTerm2('cucumber')">
+
+        <img src="./icon/broccoli.png" id="broccoli", class="ingredientImage" onclick="searchTerm2('broccoli')">
+
+        <img src="./icon/banana.png" id="banana", class="ingredientImage" onclick="searchTerm2('banana')">
+
+        <img src="./icon/strawberry.png" id="strawberry", class="ingredientImage" onclick="searchTerm2('strawberry')">
+
+        <img src="./icon/chocolate.png" id="chocolate", class="ingredientImage" onclick="searchTerm2('chocolate')">
+
+
+        <img src="./icon/egg.png" id="egg", class="ingredientImage" onclick="searchTerm2('egg')">
+
+
+
+
+      </div>
+
+
+      <div class="search-container">
+        <!-- Form to enter search keyword (term) -->
+        <form class="search-form">
+          <input type="text" class="search-term" placeholder="Search Ingredients" />
+
+
+
+          <button class="search-btn">
+            Get Recipes !  
+          </button>
+        </form>
+      </div>
+
+      <!-- A message to show when no results were found. It is hidden by default -->
+
+      <!-- We will populate this list from JavaScript -->
+      <div class="recipes-list">
+      </div>
+
+     
+
+   <!--  </div> -->
+
+    <script src="search.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+</html>
